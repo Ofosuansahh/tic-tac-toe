@@ -386,6 +386,7 @@
   
   .cpuBtn:hover {
     background-color: hsl(var(--clr-orangeHover));
+    cursor: pointer;
   }
   
   .playerBtn {
@@ -395,6 +396,7 @@
   
   .playerBtn:hover {
     background: hsl(var(--clr-lightBlueHover));
+    cursor: pointer;
   }
   
 
@@ -484,6 +486,11 @@
     border: none;
     padding-inline: 12.31px;
   }
+
+  .restart:hover{
+    cursor: pointer;
+    background: #dadee0;
+  }
   
   @media (min-width: 35em) {
     .restart {
@@ -497,6 +504,7 @@
   .restart:active {
     transform: translateY(2px);
   }
+  
   
   .boxes {
     display: grid;
@@ -721,6 +729,7 @@
   
   .cancelBtn:hover {
     background-color: hsl(var(--clr-silverHover));
+    cursor: pointer;
   }
   
   .restartBtn {
@@ -731,4 +740,5 @@
   
   .restartBtn:hover {
     background-color: hsl(var(--clr-orangeHover));
+    cursor: pointer;
   }
