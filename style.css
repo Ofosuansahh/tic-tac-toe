@@ -1,6 +1,3 @@
-/* ------------------- */
-/* Custom properties   */
-/* ------------------- */
 
 :root {
     /* colors */
@@ -108,9 +105,7 @@
     }
   }
   
-  /* ------------------- */
-  /* Utility classes     */
-  /* ------------------- */
+
   
   /* general */
   
@@ -140,7 +135,7 @@
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    white-space: nowrap; /* added line */
+    white-space: nowrap;
     border: 0;
   }
   
@@ -235,9 +230,7 @@
     color: hsl(228, 45%, 44%);
   }
   
-  /* ----------------- */
-  /*     Game menu     */
-  /* ----------------- */
+/* Game Menu */
   
   .gameMenu {
     text-align: center;
@@ -403,10 +396,9 @@
     background: hsl(var(--clr-lightBlueHover));
   }
   
-  /* ----------------- */
+
   /*     Game board    */
-  /* ----------------- */
-  
+
   .gameBoard {
     display: none;
     z-index: -1;
@@ -607,9 +599,8 @@
     background: hsl(var(--clr-orange));
   }
   
-  /* ---------- */
+  
   /*    Modal   */
-  /* ---------- */
   
   .modal {
     display: none;
